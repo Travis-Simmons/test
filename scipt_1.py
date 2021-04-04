@@ -57,7 +57,7 @@ def main():
     def add_1(x):
         print(x+1)
         
-    print(x+1)
+    add_1(10)
 
 
 
