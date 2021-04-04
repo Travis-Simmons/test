@@ -8,6 +8,7 @@ Purpose: Rock the Casbah
 import argparse
 import os
 import sys
+from script_1 import add_1
 
 
 
@@ -54,8 +55,6 @@ import sys
 
 # # --------------------------------------------------
 def main():
-    def add_1(x):
-        print(x+1)
         
     add_1(10)
 
