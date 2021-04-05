@@ -1,7 +1,9 @@
 FROM ubuntu:18.04
 
 WORKDIR /opt
-COPY . /opt
+# COPY . /opt
+
+RUN cp -r . /opt
 
 USER root
 
