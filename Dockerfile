@@ -1,11 +1,11 @@
 FROM ubuntu:18.04
 
 
-RUN cp -r . /opt
+# RUN cp -r . /opt
 
 
 WORKDIR /opt
-# COPY . /opt
+COPY . /opt
 
 
 USER root
