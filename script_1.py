@@ -53,10 +53,12 @@ import sys
 
 
 # # --------------------------------------------------
-def main():
-    def add_1(x):
-        print(x+1)
+def add_1(x):
+    print(x+1)
         
+
+def main():
+
     add_1(10)
 
 
